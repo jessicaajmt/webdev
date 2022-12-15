@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="OrderingPAGE.css">
+<script>
+    function calculate() {
+      var x = document.getElementById("yourTotal").value;
+      var wallet1 = 2;
+      var sum = x * cactus;
+      document.getElementById("finalSum").innerHTML = sum;
+    }
+    
+    
+      </script>
+</head>
+<body>
+
+    <div class="navbar">
+      <table class="top_navbartab">
+        <tr>
+            <td><img src="logo.png" class="logo"></td>
+            <td></td>
+            <td></td>
+            <td><a href="#" class="com">New Arrivals</a></td>
+            <td><a href="#" class="com">Wallets</a></td>
+            <td><a href="#" class="com">Accessories </a> </td>
+            <td><a href="#" class="com">Services</a> </td>
+            <td><a href="#" class="com">Sale</a> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><center><a href="#" class="buttonlink"><button class="login">Log In</button></a>
+           <a href="#" class="buttonlink"><button class="get">Shop Now </button></a></center></td>
+        </tr>
+    </table>
+      </div>
+      
+      
+      <br><br> <br><br> <br><br> <br><br>
+
+      <div class="centerdiv">
+        <br><br><label>Items:</label>
+        <input type="number" id="yourTotal" min="0" max="10"><br><br>
+        <button type = "button" OnClick="calculate()">Total</button><br><br>
+        <label>Total Amount :</label>
+        
+        <a href="OrderingPAGE.html"><button type="button">Cancel</button></a>
+        <a href="ordercomplete.html"><button type="button">Order</button></a>
+        <p id="finalSum"></p></div>
+
+
+
+      
+
+
+
+        <div class="modal2-content">
+          <div class="centerdiv">
+            <br><br><label>Items:</label>
+            <input type="number" id="yourTotal" min="0" max="10"><br><br>
+            <button type = "button" OnClick="calculate20()">Total</button><br><br>
+            <label>Total Amount :</label>
+            
+            <a href="OrderingPAGE.html"><button type="button">Cancel</button></a>
+            <a href="ordercomplete.html"><button type="button">Order</button></a>
+            <p id="finalSum"> Dollars </p></div>
+      </div>
+
+</body>
+</html>

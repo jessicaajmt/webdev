@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="logo-head.png">
+  <title>
+    Baellery Philippines
+  </title>
+
+    
+<link rel="stylesheet" href="OrderingPAGE.css">
+
+
+<!--function computations-->
+<script>
+
+function Calculate50() {
+        var z = document.getElementById("yourTotal50").value;
+        var wallet4 = 50;
+        var sum = z * wallet4;
+        document.getElementById("finalSum50").innerHTML = sum;
+        
+        
+      }
+  function calculate20() {
+          var x = 0;
+        var x = document.getElementById("yourTotal20").value;
+        var wallet1 = 20;
+        var sum = x * wallet1;
+        document.getElementById("finalSum20").innerHTML = sum;
+        
+        return 0;
+         
+      }
+  function Calculate15() {
+        var y = document.getElementById("yourTotal15").value;
+        var wallet2 = 15;
+        var sum = y * wallet2;
+        document.getElementById("finalSum15").innerHTML = sum;
+      }
+      
+  function Calculate30() {
+        var z = document.getElementById("yourTotal30").value;
+        var wallet3 = 30;
+        var sum = z * wallet3;
+        document.getElementById("finalSum30").innerHTML = sum;
+        
+        
+      }
+      
+     
+  
+      /*modal*/
+      document.addEventListener('click', function (e) {
+      e = e || window.event;
+      var target = e.target || e.srcElement;
+  
+      if (target.hasAttribute('data-toggle') && target.getAttribute('data-toggle') == 'modal') {
+          if (target.hasAttribute('data-target')) {
+              var m_ID = target.getAttribute('data-target');
+              document.getElementById(m_ID).classList.add('open');
+              e.preventDefault();
+          }
+      }
+  
+      // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+      if ((target.hasAttribute('data-dismiss') && target.getAttribute('data-dismiss') == 'modal') || target.classList.contains('modal')) {
+          var modal = document.querySelector('[class="modal open"]');
+          modal.classList.remove('open');
+          e.preventDefault();
+      }
+  }, false);
+        </script>
+      
+      
+</head>
+<body>
+
+    <div class="navbar">
+      <table class="top_navbartab">
+        <tr>
+            <td><img src="logo.png" class="logo"></td>
+            <td></td>
+            <td></td>
+            <td><a href="#" class="com">New Arrivals</a></td>
+            <td><a href="#" class="com">Wallets</a></td>
+            <td><a href="#" class="com">Accessories </a> </td>
+            <td><a href="#" class="com">Services</a> </td>
+            <td><a href="#" class="com">Sale</a> </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><center><a href="#" class="buttonlink"><button class="login">Log In</button></a>
+           <a href="#" class="buttonlink"><button class="get">Shop Now </button></a></center></td>
+        </tr>
+    </table>
+      </div>
+      
+      
+  <!--product display-->
+
+      <div class="main">
+       
+    <table class="imgtabs">
+		<tr> 
+		<td><center>
+
+      <div class="container" data-target="simpleModal_30" data-toggle="modal"> 
+      <img src="wallet1.jfif"  class="image" data-target="simpleModal_30" data-toggle="modal" >
+      
+      <h5>Saint Laurent </h5><b class="price">$30</b>
+   </div>
+       </center>
+    </td>
+
+		<td>
+      <center>
+
+        <div class="container" data-target="simpleModal_20" data-toggle="modal"> 
+        <img src="wallet2.jpg"  class="image" data-target="simpleModal_20" data-toggle="modal">
+        
+        <h5>Black Manly CardHolder </h5><b class="price">$20</b>
+    </div>
+         </center>	 
+    </td>
+
+		<td>
+      <center>
+
+        <div class="container" data-target="simpleModal_50" data-toggle="modal"> 
+        <img src="wallet3.jpg"  class="image" data-target="simpleModal_50" data-toggle="modal">
+        
+        <h5>Long Leather Wallet </h5><b class="price">$50</b>
+   </div>
+         </center>	
+
+
+    </td>
+  </tr> <tr> 
+      <td>
+        <center>
+
+          <div class="container" data-target="simpleModal_15" data-toggle="modal" > 
+          <img src="wallet4.jpg"  class="image" data-target="simpleModal_15" data-toggle="modal">
+          
+          <h5>Black Manly CardHolder </h5><b class="price">$15</b>
+    </div>
+           </center>	
+          
+         
+            <td><center>
+        
+              <div class="container" data-target="simpleModal_30" data-toggle="modal"> 
+              <img src="wallet5.png"  class="image" data-target="simpleModal_30" data-toggle="modal" >
+              
+              <h5>	Baellerry Slim Rfid Blocking </h5><b class="price">$30</b>
+           </div>
+               </center>
+            </td>
+        
+            <td>
+              <center>
+        
+                <div class="container" data-target="simpleModal_20" data-toggle="modal"> 
+                <img src="wallet6.jpg"  class="image" data-target="simpleModal_20" data-toggle="modal">
+                
+                <h5>high Class Leather Fashion </h5><b class="price">$20</b>
+            </div>
+                 </center>	 
+            </td>
+          </tr><tr>
+            <td>
+              <center>
+        
+                <div class="container" data-target="simpleModal_50" data-toggle="modal"> 
+                <img src="wallet7.jpg"  class="image" data-target="simpleModal_50" data-toggle="modal">
+                
+                <h5>Long Wallet D Gray </h5><b class="price">$5</b>
+           </div>
+                 </center>	
+        
+        
+            </td>
+            
+              <td>
+                <center>
+        
+                  <div class="container" data-target="simpleModal_15" data-toggle="modal" > 
+                  <img src="wallet8.jpg"  class="image" data-target="simpleModal_15" data-toggle="modal">
+                  
+                  <h5> Money Purse Luxury Wallet </h5><b class="price">$15</b>
+            </div>
+                   </center>	
+                   </td>
+                   <td>
+                    <center>
+            
+                      <div class="container" data-target="simpleModal_15" data-toggle="modal" > 
+                      <img src="wallet9.jpg"  class="image" data-target="simpleModal_15" data-toggle="modal">
+                      
+                      <h5>Slim Card Holder Wallet </h5><b class="price">$15</b>
+                </div>
+                       </center>	
+                       </td>
+                  </tr>
+
+
+		</table>
+<!--modal computation display-->
+	  </div>
+    <div id="simpleModal_20" class="modal" >
+      <div class="modal-window small" >
+     <button data-dismiss="modal" class="close-button-modal"> close</button>
+     <div class="centerdiv">
+      <br><br><label>Items:</label>
+      <input type="number" id="yourTotal20" min="0" max="10"><br><br>
+     <br>
+      <label>Total Amount :</label><p id="finalSum20">  </p>
+      
+      
+      <a href="#"><button type="button">Order</button></a>
+        <button type = "button" OnClick="calculate20()">Total Price</button>
+      </div>
+</div>
+         
+      </div>
+  </div>
+  <div id="simpleModal_30" class="modal">
+    <div class="modal-window small">
+      <button data-dismiss="modal" class="close-button-modal">Close</button>
+      <div class="centerdiv">
+       <br><br><label>Items:</label>
+       <input type="number" id="yourTotal30" min="0" max="10"><br>
+       <label>Total Amount :</label><p id="finalSum30">  </p>
+       
+ 
+       <a href="#"><button type="button">Order</button></a>
+       <button type = "button" OnClick="Calculate30()">Total Price</button>
+     </div>  
+ </div>
+          
+       </div>
+   </div>
+  <div id="simpleModal_15" class="modal">
+    <div class="modal-window small">
+      <button data-dismiss="modal" class="close-button-modal">Close</button>
+      <div class="centerdiv">
+       <br><br><label>Items:</label>
+       <input type="number" id="yourTotal15" min="0" max="10"><br><br>
+       <br>
+       <label>Total Amount :</label><p id="finalSum15">  </p>
+       
+    
+       <a href="#"><button type="button">Order</button></a>
+       <button type = "button" OnClick="Calculate15()">Total Price</button>
+       </div>
+ </div>
+          
+       </div>
+   </div>
+   <div id="simpleModal_50" class="modal">
+    <div class="modal-window small">
+      <button data-dismiss="modal" class="close-button-modal">Close</button>
+      <div class="centerdiv">
+       <br><br><label>Items:</label>
+       <input type="number" id="yourTotal50" min="0" max="10"><br>
+       <br>
+       <label>Total Amount :</label><p id="finalSum50">  </p>
+       
+    
+       <a href="#"><button type="button">Order</button></a>
+       <button type = "button" OnClick="Calculate50()">Total Price</button>
+       </div>
+ </div>
+          
+       </div>
+   </div>
+
+  
+
+
+    
+
+    
+      
+      
+
+
+
+      
+
+</body>
+</html>

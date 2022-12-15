@@ -1,0 +1,285 @@
+body {
+  margin:0;
+  /*background-color: rgb(244, 244, 244);*/
+	/*background-color: #e3dac9 ;*/
+  background-image: url(bg.png);
+  background-position: right left;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  
+}
+
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #000000;
+	z-index: 999;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a.com:hover {
+    background: white;
+    color: rgb(230, 175, 11);
+    cursor: pointer;
+    
+    
+  }
+  .navbar1 {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #000000;
+  }
+  
+  .navbar1 a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .navbar1 a:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+   
+    
+
+  }
+  .highlight{
+    color: #0080ff;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 100px;
+    margin-left: 290px;
+    height: 1300px;  /*Used in this example to enable scrolling */
+    color: rgb(7, 7, 7);
+    width: 50%;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  p{
+    text-align: justify;
+  }
+table.bottom_navbartab{
+    width: 100%;
+    margin-left: 160px;
+   
+}
+img.logo{
+  height: 25px;
+  width: 110px;
+  margin-left: 50px;
+}
+table.top_navbartab{
+  width: 100%;
+  margin-left: 30px;
+ 
+ 
+}
+/*table.imgtabs {
+  border: 2px solid;
+  
+
+}*/
+img.iconbot{
+  width: 40px;
+  height: 40px;
+
+}
+button{
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  width: auto;
+  
+}
+button.login{
+  width: 70px;
+  font-size: small;
+  
+
+
+}
+button.get{
+  width: 90px;
+  font-size: small;
+
+
+
+}
+a.com{
+  margin-right: -30px;
+  font-size: medium;
+  
+}
+a.buttonlink{
+  text-decoration: none;
+  
+}
+button.contact{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  height: 40px;
+  border: none;
+  width: 110px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px white;
+  
+
+
+}
+button.learn{
+  background-color: white;
+  color: #000000;
+  border-radius: 100px;
+  height: 40px;
+  border: none;
+  width: 110px;
+  margin-left: 30px;
+
+  box-shadow: 2px 2px 2px #1e87ef;
+ 
+
+}
+.image:hover{
+
+  
+ 
+  height: 200px;
+  width: 200px;
+
+
+}
+
+.image {
+
+height: 200px;
+width: 200px;
+border-bottom:1px solid peachpuff;
+}
+.container{
+  background-color: white;
+  height: 300px;
+  border: 2px solid peachpuff;
+  
+}
+.container:hover{
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+b.price{
+  color: rgb(255, 13, 13);
+}
+h5{
+  color: black;
+  font-weight:400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+  
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: large;
+}
+
+.description{
+  margin-left: 120px;
+}
+
+
+
+/*modal*/
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+.modal-window {
+  position: relative;
+  background-color: #FFFFFF;
+  width: 50%;
+  margin: 10% auto;
+  padding: 20px;
+}
+
+.modal-window.small {
+  width: 15%;
+}
+
+.modal-window.large {
+  width: 15%;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgba(0,0,0,0.3);
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  cursor: pointer;
+}
+
+.open {
+  display: block;
+}
+
+button { 
+  padding: 5px; 
+  font-size: 12px; 
+  background: rgb(0, 0, 0); 
+  color: #FFF; border: none 
+}
+.subheading { 
+  font-style: italic 
+}
+
+.close-button-modal{
+  float: right;
+  background-color: red;
+  
+}
